@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8816D2AD1BF8633E008A67F6 /* VistaResultado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8816D2AC1BF8633E008A67F6 /* VistaResultado.swift */; settings = {ASSET_TAGS = (); }; };
+		8816D2AF1BF985A7008A67F6 /* VistaResultado2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8816D2AE1BF985A7008A67F6 /* VistaResultado2.swift */; settings = {ASSET_TAGS = (); }; };
 		887BA7051BF849D200D3E037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887BA7041BF849D200D3E037 /* AppDelegate.swift */; };
 		887BA7071BF849D200D3E037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887BA7061BF849D200D3E037 /* ViewController.swift */; };
 		887BA70A1BF849D200D3E037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887BA7081BF849D200D3E037 /* Main.storyboard */; };
 		887BA70C1BF849D200D3E037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887BA70B1BF849D200D3E037 /* Assets.xcassets */; };
 		887BA70F1BF849D200D3E037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887BA70D1BF849D200D3E037 /* LaunchScreen.storyboard */; };
+		887BA7171BF8502C00D3E037 /* checkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887BA7161BF8502C00D3E037 /* checkButton.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8816D2AC1BF8633E008A67F6 /* VistaResultado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultado.swift; sourceTree = "<group>"; };
+		8816D2AE1BF985A7008A67F6 /* VistaResultado2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultado2.swift; sourceTree = "<group>"; };
 		887BA7011BF849D200D3E037 /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887BA7041BF849D200D3E037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887BA7061BF849D200D3E037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		887BA70B1BF849D200D3E037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		887BA70E1BF849D200D3E037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		887BA7101BF849D200D3E037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887BA7161BF8502C00D3E037 /* checkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				887BA70B1BF849D200D3E037 /* Assets.xcassets */,
 				887BA70D1BF849D200D3E037 /* LaunchScreen.storyboard */,
 				887BA7101BF849D200D3E037 /* Info.plist */,
+				887BA7161BF8502C00D3E037 /* checkButton.swift */,
+				8816D2AC1BF8633E008A67F6 /* VistaResultado.swift */,
+				8816D2AE1BF985A7008A67F6 /* VistaResultado2.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				887BA7071BF849D200D3E037 /* ViewController.swift in Sources */,
+				8816D2AD1BF8633E008A67F6 /* VistaResultado.swift in Sources */,
+				8816D2AF1BF985A7008A67F6 /* VistaResultado2.swift in Sources */,
+				887BA7171BF8502C00D3E037 /* checkButton.swift in Sources */,
 				887BA7051BF849D200D3E037 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 				887BA7151BF849D200D3E037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
